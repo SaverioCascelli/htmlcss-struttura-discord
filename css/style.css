@@ -11,12 +11,15 @@
 }
 /* /tools */
 
+.container{
+    margin: 0 215px;
+}
+
 /* header */
 
 header .container{
     display: flex;
-    height: 80px;
-    margin: 0 215px;
+    height: 80px; 
     align-items: flex-start;
     justify-content: space-between;
     align-items: center ;
@@ -54,3 +57,37 @@ header ul{
     height: 100px;
 }
 /* /jumbotron */
+
+/* main */
+/* /main */
+
+/* footer */
+footer{
+    height: 667px;
+}
+
+footer .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#top-right-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+#top-right-footer ul{
+    list-style: none;
+    padding: 15px;
+    width:200px;
+}
+
+#top-left-footer{
+    width: 235px;
+    height: 160px;
+}
+
+/* /footer */
