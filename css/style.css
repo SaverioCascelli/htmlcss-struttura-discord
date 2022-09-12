@@ -66,10 +66,20 @@ footer{
     height: 667px;
 }
 
-footer .container{
-    display: flex;
+
+footer .top{
+    border-bottom: solid grey;
     align-items: flex-start;
     justify-content: flex-start;
+}
+
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container{
+    display: flex;
 }
 
 #top-right-footer{
