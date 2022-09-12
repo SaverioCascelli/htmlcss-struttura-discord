@@ -68,18 +68,27 @@ footer{
 
 
 footer .top{
+    padding-top: 90px;
     border-bottom: solid grey;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
 footer .bottom{
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 footer .container{
     display: flex;
+    
+}
+
+#top-left-footer{
+    padding-top:15px;
+    width: 235px;
+    height: 160px;
 }
 
 #top-right-footer{
@@ -89,15 +98,15 @@ footer .container{
     padding: 0 20px;
 }
 
+#top-right-footer .list{
+    padding: 15px;
+}
+
 #top-right-footer ul{
     list-style: none;
-    padding: 15px;
     width:200px;
 }
 
-#top-left-footer{
-    width: 235px;
-    height: 160px;
-}
+
 
 /* /footer */
