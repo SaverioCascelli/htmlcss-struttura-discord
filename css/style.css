@@ -47,6 +47,10 @@ header ul{
     height: 545px;
 }
 
+.jumbotron h1, .text{
+    text-align: center;
+}
+
 .jumbotron h1{
     width: 600px;
     height: 50px;
