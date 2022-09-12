@@ -16,7 +16,7 @@
 header{
     display: flex;
     height: 80px;
-    margin: 10px 215px;  
+    margin: 0 215px;  /*to do fix margin & background */
     align-items: flex-start;
     justify-content: space-between;
     align-items: center ;
@@ -34,3 +34,14 @@ header ul{
 
 /* /header */
 
+/* jumbotron */
+
+.jumbotron{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 545px;
+}
+
+/* /jumbotron */
