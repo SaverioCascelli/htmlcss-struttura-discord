@@ -69,17 +69,16 @@ main .container{
     display: flex;
 }
 
-main > :nth-child(2){
+main > :nth-child(2n){
     background-color: black;
 }
 
-main > :nth-child(2) .container{
-    
+main > :nth-child(2n) .container.art{
     display: flex;
     flex-direction: row-reverse;
 }
 
-main > :nth-child(2) .container .main-text{
+main > :nth-child(2n) .container .main-text{
     text-align: left;
 }
 
@@ -97,9 +96,16 @@ main > :nth-child(2) .container .main-text{
     text-align: right;
 }
 
-main .text{
-    width: 35%;
+.last-main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.last-main .immage{
+    height: 275px;
+}
+
 /* /main */
 
 /* footer */
