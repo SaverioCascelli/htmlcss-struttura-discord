@@ -44,4 +44,13 @@ header ul{
     height: 545px;
 }
 
+.jumbotron h1{
+    width: 600px;
+    height: 50px;
+}
+
+.jumbotron .text{
+    width: 775px;
+    height: 100px;
+}
 /* /jumbotron */
