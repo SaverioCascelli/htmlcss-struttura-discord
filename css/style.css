@@ -13,10 +13,10 @@
 
 /* header */
 
-header{
+header .container{
     display: flex;
     height: 80px;
-    margin: 0 215px;  /*to do fix margin & background */
+    margin: 0 215px;
     align-items: flex-start;
     justify-content: space-between;
     align-items: center ;
