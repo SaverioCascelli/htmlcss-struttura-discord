@@ -59,6 +59,47 @@ header ul{
 /* /jumbotron */
 
 /* main */
+
+
+main{/* remove after */
+    margin: 10px 0; 
+}
+
+main .container{
+    display: flex;
+}
+
+main > :nth-child(2){
+    background-color: black;
+}
+
+main > :nth-child(2) .container{
+    
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main > :nth-child(2) .container .main-text{
+    text-align: left;
+}
+
+.main-image, .main-text{
+    padding: 30px;
+    height: 740px;
+}
+
+.main-image{
+    width: 60%;
+}
+
+.main-text{
+    width: 40%;
+    text-align: right;
+}
+
+main .text{
+    width: 35%;
+}
 /* /main */
 
 /* footer */
@@ -106,7 +147,5 @@ footer .container{
     list-style: none;
     width:200px;
 }
-
-
 
 /* /footer */
